@@ -205,7 +205,7 @@ h1 {
     -moz-animation-fill-mode:forwards;
     animation-fill-mode:forwards;
 
-    -webkit-animation-duration:1.5s;
-    -moz-animation-duration:1.5s;
-    animation-duration:1.5s;
+    -webkit-animation-duration:2s;
+    -moz-animation-duration:2s;
+    animation-duration:2s;
 }
