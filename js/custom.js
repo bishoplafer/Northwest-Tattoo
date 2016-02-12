@@ -20,7 +20,7 @@ var main = new Instafeed({
 	      $(image).addClass('animated flipInX');
 	    });
 	  },
-    template: '<div class="col-sm-4"><div class="thumbnail" id="instaImg"><a href="{{link}}" target="_blank"><img class="img-responsive" src="{{image}}" /></a></div></div>'
+    template: '<div class="col-sm-4"><div class="thumbnail fade-in" id="instaImg"><a href="{{link}}" target="_blank"><img class="img-responsive" src="{{image}}" /></a></div></div>'
 });
 main.run();
 
@@ -46,7 +46,7 @@ var max = new Instafeed({
 	      $(image).addClass('animated flipInX');
 	    });
 	  },
-    template: '<div class="col-sm-4"><div class="thumbnail" id="instaImg"><a href="{{link}}" target="_blank"><img class="img-responsive" src="{{image}}" /></a></div></div>'
+    template: '<div class="col-sm-4"><div class="thumbnail fade-in" id="instaImg"><a href="{{link}}" target="_blank"><img class="img-responsive" src="{{image}}" /></a></div></div>'
 });
 max.run();
 
@@ -72,7 +72,7 @@ var jordin = new Instafeed({
 	      $(image).addClass('animated flipInX');
 	    });
 	  },
-    template: '<div class="col-sm-4"><div class="thumbnail" id="instaImg"><a href="{{link}}" target="_blank"><img class="img-responsive" src="{{image}}" /></a></div></div>'
+    template: '<div class="col-sm-4"><div class="thumbnail fade-in" id="instaImg"><a href="{{link}}" target="_blank"><img class="img-responsive" src="{{image}}" /></a></div></div>'
 });
 jordin.run();
 
@@ -98,7 +98,7 @@ var ryan = new Instafeed({
 	      $(image).addClass('animated flipInX');
 	    });
 	  },
-    template: '<div class="col-sm-4"><div class="thumbnail" id="instaImg"><a href="{{link}}" target="_blank"><img class="img-responsive" src="{{image}}" /></a></div></div>'
+    template: '<div class="col-sm-4"><div class="thumbnail fade-in" id="instaImg"><a href="{{link}}" target="_blank"><img class="img-responsive" src="{{image}}" /></a></div></div>'
 });
 ryan.run();
 
