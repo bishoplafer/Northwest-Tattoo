@@ -20,7 +20,7 @@ var main = new Instafeed({
 	      $(image).addClass('animated flipInX');
 	    });
 	  },
-    template: '<div class="col-sm-4"><div class="thumbnail fade-in" id="instaImg"><a href="{{link}}" target="_blank"><img class="img-responsive" src="{{image}}" /></a></div></div>'
+    template: '<div class="col-sm-4 visible-xs visible-sm"><div class="thumbnail fade-in" id="instaImg"><a href="{{link}}" target="_blank"><img class="img-responsive" src="{{image}}" /></a></div></div><div class="col-sm-4 hidden-xs hidden-sm"><div class="thumbnail fade-in hovereffect" id="instaImg"><a href="{{link}}" target="_blank"><img class="img-responsive" src="{{image}}" /><div class="overlay"><div class="rotate"><p class="group1"><a href="http://www.facebook.com/nwtattooeugene" target="_blank"><i class="fa fa-facebook"></i></a><hr></p><hr><hr><p class="group2"><a href="{{link}}" target="_blank"><i class="fa fa-instagram"></i></a></p></div></div></a></div></div>'
 });
 main.run();
 
